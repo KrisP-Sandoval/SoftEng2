@@ -8,6 +8,10 @@ public class Chair implements Furniture {
         visitor.visitChair(this);
     }
 
+    public int getShippingCost() {
+        return shippingCost;
+    }
+
     public void setShippingCost(int shippingCost) {
         this.shippingCost = shippingCost;
     }

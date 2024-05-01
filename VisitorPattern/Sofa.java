@@ -23,6 +23,10 @@ public class Sofa implements Furniture {
         return distance;
     }
 
+    public int getShippingCost() {
+        return shippingCost;
+    }
+
     public void setShippingCost(int shippingCost) {
         this.shippingCost = shippingCost;
     }
